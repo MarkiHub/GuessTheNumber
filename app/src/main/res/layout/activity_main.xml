@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_pattern"
+    >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="157dp"
+        android:layout_y="62dp"
+        android:src="@drawable/ic_eyeball" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="157dp"
+        android:layout_y="178dp"
+        android:background="@color/white"
+        android:padding="5dp"
+        android:text="The eye"
+        android:textColor="@color/teal_700"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/guessing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="43dp"
+        android:layout_y="241dp"
+        android:background="@color/white"
+        android:padding="8dp"
+        android:text="Tap to generate to start"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="45dp"
+        android:layout_y="337dp"
+        android:backgroundTint="@color/mustard"
+        android:text="Down"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/upB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="285dp"
+        android:layout_y="335dp"
+        android:text="up"
+        android:backgroundTint="@color/mustard"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:id="@+id/generate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="161dp"
+        android:layout_y="412dp"
+        android:text="Generate"
+        android:backgroundTint="@color/orange"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:id="@+id/guessed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="136dp"
+        android:layout_y="472dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="Guessed"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:visibility="gone"/>
+
+</AbsoluteLayout>
